@@ -15,5 +15,5 @@ reversed_phrase_array=[]
 phrase_array.each {|element| reversed_phrase_array << element.reverse}
  puts reversed_phrase_array
 end
-=> :reverse
-irb(main):017:0> reverse(phrase)
+
+reverse(phrase)
