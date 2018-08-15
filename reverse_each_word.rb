@@ -6,6 +6,8 @@ def reverse_each_word(phrase)
   phrase_array.each {|element| reversed_phrase_array << element.reverse}
    
    reversed_phrase = reversed_phrase_array.join(" ")
+   
+   reversed_phrase
 end 
 
 
