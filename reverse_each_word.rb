@@ -1,3 +1,3 @@
 def reverse_each_word(phrase)
-  phrase.each.reverse
+  phrase.each {|word| word.reverse}
 end 
