@@ -4,7 +4,7 @@ def reverse_each_word(phrase)
   
   reversed_phrase_array=[]
   phrase_array.each {|element| reversed_phrase_array << element.reverse}
-   puts reversed_phrase_array
+   reversed_phrase_array
 end 
 
 
