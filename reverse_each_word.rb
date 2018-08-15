@@ -1,7 +1,9 @@
 def reverse_each_word(phrase)
   phrase_array=[]
   phrase_array << phrase.split
+  
+  
   reversed_words_array = []
-  phrase_array {|word| reversed_words_array <<  word.reverse}
+  phrase_array.each {|word| reversed_words_array <<  word.reverse}
   reversed_words_array.join(" ")
 end 
