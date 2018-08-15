@@ -16,4 +16,4 @@ phrase_array.each {|element| reversed_phrase_array << element.reverse}
  puts reversed_phrase_array
 end
 
-reverse(phrase)
+reverse(phrase_array)
